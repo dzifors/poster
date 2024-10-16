@@ -1,9 +1,4 @@
-export default function InputLabel({
-    value,
-    className = '',
-    children,
-    ...props
-}) {
+export default function InputLabel({ value, className = "", children, ...props }) {
     return (
         <label
             {...props}
@@ -16,3 +11,4 @@ export default function InputLabel({
         </label>
     );
 }
+
